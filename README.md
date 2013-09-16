@@ -31,7 +31,7 @@ You'll have to set up the required android support libraries to get this sample 
 Some open points listed here
 
 * use proper own namespace attr and styles for pre lvl 14, see: http://stackoverflow.com/questions/17261230/navigation-drawer-not-working-on-pre-ics-versions
-* fix invalidateOptionsMenu() calls
+* fix invalidateOptionsMenu() calls => use support version
 
 ## More info
 
