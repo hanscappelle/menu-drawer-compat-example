@@ -17,14 +17,33 @@ I started from [the sample menu drawer app](http://developer.android.com/shareab
 * change imports
 * clean up layout drawer
 
-## Support lib setup
+## update theme
 
-You'll have to set up the required android support libraries to get this sample working. The project file (eclipse) contains a local reference to my system set up. Fix that first. The jars are included here. The library project isn't.
+In your manifest update the application tag to include the following compat theme.
 
-* add android-support-v7-appcompat as a library project
+   <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/Theme.AppCompat">
+        
+## Add compat libraries
+
+### Support lib libraries
+
 * and android-support-v7-appcompat.jar to libs folder
 * replace android-support-v4.jar in libs folder
-* clean build
+
+You'll have to set up the required android support libraries to get this sample working. The project file (eclipse) contains a local reference to my system set up. Fix that first. The jars are included on this project in the libs folder.
+
+### Compat Project setup
+
+* add android-support-v7-appcompat as a library project
+
+The compat library project isn't included here. You can find it in your SDK folder. First import that as an Android project (eclipse File menu > import > android > existing android project) from:
+
+   SDK_PATH/extras/android/support/v7/appcompat
+
+Now you can add this android project as a dependency on your project.
 
 ## TODO
 
