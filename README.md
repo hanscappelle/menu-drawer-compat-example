@@ -45,6 +45,10 @@ The compat library project isn't included here. You can find it in your SDK fold
 
 Now you can add this android project as a dependency on your project.
 
+## Update imports
+
+Only for existing projects. In your source files replace the imports to match all support packages.
+
 ## TODO
 
 Some open points listed here
