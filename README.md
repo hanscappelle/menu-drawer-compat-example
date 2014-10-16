@@ -5,6 +5,8 @@ Example project for ActionBar Compat and Menu Drawer tested on API level 7 (Andr
 
 This is an eclipse ADT project. If you're looking for something similar on Android Studio you can either try importing this project or check out the fragment based navigation example at https://github.com/AndroidExamples/fragment-navigation instead. That project was created in AS and will be extended to have the action bar compat navigation drawer included.
 
+This project was never intended to be a complete app. Instead I wanted to convert the AcitonBar example project from Android towards an ActionBar Compat project. 
+
 ## Screenshot
 
 Visit [this link](https://www.dropbox.com/s/w43z6yk23ldz5rh/device-2013-08-19-031443.png). 
